@@ -37,13 +37,3 @@ python script.py
 ### Controls
 
 - Press **'q'** to exit the program.
-
-## How It Works
-
-1. Captures video from the webcam.
-2. Converts frames to RGB for processing.
-3. Detects faces using **MediaPipe FaceDetection** and draws a bounding box.
-4. Detects hands using **MediaPipe Hands** and draws a bounding box.
-5. Counts the number of raised fingers based on landmark positions.
-6. Displays the processed frame with bounding boxes and finger count.
-
